@@ -1,9 +1,8 @@
 #pragma once
 
 #include <iostream>
-#include <string>
-#include <map>
 #include <vector>
+#include <string>
 using namespace std;
 
 class Product
@@ -15,8 +14,6 @@ class Product
     
     string _productTitle;
     string _productType;
-    
-    map<string, vector<string>> _product;
     
     int _calories;
     int _weight;

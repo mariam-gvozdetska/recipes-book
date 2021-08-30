@@ -1,0 +1,3 @@
+/Users/aleksandrtkacenko/Desktop/Работа/Eleks/RecipesBook/RecipesBook/RecipesBookClient/RecipesBookClient/build/CMakeFiles/rebuild_cache.dir
+/Users/aleksandrtkacenko/Desktop/Работа/Eleks/RecipesBook/RecipesBook/RecipesBookClient/RecipesBookClient/build/CMakeFiles/edit_cache.dir
+/Users/aleksandrtkacenko/Desktop/Работа/Eleks/RecipesBook/RecipesBook/RecipesBookClient/RecipesBookClient/build/CMakeFiles//Users/aleksandrtkacenko/Desktop/Работа/Eleks/RecipesBook/RecipesBook/RecipesBookClient/RecipesBookClient/Client.cpp.dir
