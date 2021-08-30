@@ -2,14 +2,10 @@
 
 #define WIN32_LEAN_AND_MEAN
 
-#include <sys/types.h>
-#include <sys/socket.h>
-#include <stdlib.h>
+#include <winsock.h>
 #include <string>
 #include <stdexcept>
 #include <vector>
-#include <cmake>
-
 
 // Need to link with Ws2_32.lib
 #pragma comment (lib, "Ws2_32.lib")
