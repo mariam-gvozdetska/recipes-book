@@ -6,16 +6,16 @@
 
 class Dish
 {
-    vector<Product> _products;
+    std::vector<Product> _products;
     Cuisine _cuisine;
     int _calories;
     int _weight;
-    string _title;
+    std::string _title;
     DishType _dishType;
     
 public:
     Dish();
-    Dish(vector<Product> products, Cuisine cuisine, int calories, int weight, string title, DishType dishType);
+    Dish(std::vector<Product> products, Cuisine cuisine, int calories, int weight, std::string title, DishType dishType);
     
     void AddProduct(const Product product);
     void DeleteProduct(Product product);
@@ -29,8 +29,8 @@ public:
     int GetWeight()const;
     void SetWeight(int weight);
     
-    string GetTitle()const;
-    void SetTitle(string title);
+    std::string GetTitle()const;
+    void SetTitle(std::string title);
     
     DishType GetType()const;
     void SetType(DishType dishType);

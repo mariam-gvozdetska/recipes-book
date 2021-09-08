@@ -1,9 +1,6 @@
 #pragma once
 
-#include <iostream>
-#include <vector>
-#include <string>
-using namespace std;
+#include "Client.hpp"
 
 class Product
 {
@@ -12,21 +9,21 @@ class Product
 //        Fruit = 0, Vegetable, Berry, Meat, Fish, Milk, Nut, Cereal, Egg, Fowl, Seed, Sugar, Salt, Spices
 //    };
     
-    string _productTitle;
-    string _productType;
+    std::string _productTitle;
+    std::string _productType;
     
     int _calories;
     int _weight;
     
 public:
     Product();
-    Product(string productTitle, string productType, int calories, int weight);
+    Product(std::string productTitle, std::string productType, int calories, int weight);
     
-    void SetProductTitle(string productTitle);
-    string GetProductTitle() const;
+    void SetProductTitle(std::string productTitle);
+    std::string GetProductTitle() const;
     
-    void SetProductType(string productType);
-    string GetProductType() const;
+    void SetProductType(std::string productType);
+    std::string GetProductType() const;
     
     void SetCalories(int calories);
     int GetCalories()const;

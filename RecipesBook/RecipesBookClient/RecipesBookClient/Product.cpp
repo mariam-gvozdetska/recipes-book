@@ -8,7 +8,7 @@ Product::Product()
     _weight = 0;
 }
 
-Product::Product(string productTitle, string productType, int calories, int weight)
+Product::Product(std::string productTitle, std::string productType, int calories, int weight)
 {
     _productType = productType;
     _productTitle = productTitle;
@@ -24,22 +24,22 @@ Product::Product(string productTitle, string productType, int calories, int weig
         _weight = 0;
 }
 
-void Product::SetProductTitle(string productTitle)
+void Product::SetProductTitle(std::string productTitle)
 {
     _productTitle = productTitle;
 }
 
-string Product::GetProductTitle()const
+std::string Product::GetProductTitle()const
 {
     return _productTitle;
 }
 
-void Product::SetProductType(string productType)
+void Product::SetProductType(std::string productType)
 {
     _productType = productType;
 }
 
-string Product::GetProductType()const
+std::string Product::GetProductType()const
 {
     return _productType;
 }
@@ -72,10 +72,10 @@ void Product::SetWeight(int weight)
 
 void Product::Print()const
 {
-    cout << "Product Title: " + _productTitle << endl;
-    cout << "Product Type: " + _productType << endl;
-    cout << "Calories: " << _calories << endl;
-    cout << "Weight: " << _weight << endl;
+    std::cout << "Product Title: " + _productTitle << std::endl;
+    std::cout << "Product Type: " + _productType << std::endl;
+    std::cout << "Calories: " << _calories << std::endl;
+    std::cout << "Weight: " << _weight << std::endl;
 }
 
 bool Product::operator==(const Product& r)

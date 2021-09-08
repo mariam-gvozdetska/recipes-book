@@ -4,18 +4,18 @@
 
 class RecipesBook
 {
-    vector<Dish> _recipes;
-    string _title;
+    std::vector<Dish> _recipes;
+    std::string _title;
     
 public:
     RecipesBook();
-    RecipesBook(vector<Dish> recipes, string title);
+    RecipesBook(std::vector<Dish> recipes, string title);
     
     void AddDish(Dish dish);
     void DeleteDish(Dish dish);
     
-    void SetTitle(string title);
-    string GetTitle()const;
+    void SetTitle(std::string title);
+    std::string GetTitle()const;
     
     void Print()const;
     

@@ -5,7 +5,7 @@ RecipesBook::RecipesBook()
     _title = "";
 }
 
-RecipesBook::RecipesBook(vector<Dish> recipes, string title)
+RecipesBook::RecipesBook(std::vector<Dish> recipes, string title)
 {
     _recipes = recipes;
     _title = title;

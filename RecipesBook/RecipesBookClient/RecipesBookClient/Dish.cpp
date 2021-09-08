@@ -9,7 +9,7 @@ Dish::Dish()
     _dishType = Salad;
 }
 
-Dish::Dish(vector<Product> products, Cuisine cuisine, int calories, int weight, string title, DishType dishType)
+Dish::Dish(std::vector<Product> products, Cuisine cuisine, int calories, int weight, std::string title, DishType dishType)
 {
     _products = products;
     _cuisine = cuisine;
@@ -35,7 +35,7 @@ void Dish::AddProduct(const Product product)
 
 void Dish::DeleteProduct(Product product)
 {
-    vector<Product>::iterator it1;
+    std::vector<Product>::iterator it1;
     for (auto it = _products.begin(); it != _products.end(); it++)
            if(*it == product)
                it1 = it;
@@ -79,12 +79,12 @@ void Dish::SetWeight(int weight)
         _weight = 0;
 }
 
-string Dish::GetTitle()const
+std::string Dish::GetTitle()const
 {
     return _title;
 }
 
-void Dish::SetTitle(string title)
+void Dish::SetTitle(std::string title)
 {
     _title = title;
 }
