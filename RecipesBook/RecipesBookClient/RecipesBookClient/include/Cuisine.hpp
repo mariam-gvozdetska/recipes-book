@@ -11,5 +11,7 @@ enum Cuisine
     Indian,
     Italian,
     French,
-    Chinese
+    Chinese,
+    Ukrainian,
+    Russian,
 };

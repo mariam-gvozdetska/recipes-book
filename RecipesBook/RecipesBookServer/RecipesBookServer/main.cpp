@@ -1,13 +1,20 @@
-//
-//  main.cpp
-//  RecipesBookServer
-//
-//  Created by Александр Ткаченко on 25.08.2021.
-//
-
 #include <iostream>
+#include <string>
 #include "Server.h"
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    
+int main()
+{
+	try
+	{
+		Server server;
+		server.ConnectToClient();
+
+		server.SendMessageToClient("Hello, client!");
+		cout << "Client: " << server.RecieveMessageFromClient() << endl;
+	}
+	catch (const std::exception& ex)
+	{
+		cout << ex.what() << endl;
+	}
 }

@@ -1,4 +1,4 @@
-#include "Product.hpp"
+#include "Product.h"
 
 Product::Product()
 {
@@ -12,13 +12,13 @@ Product::Product(std::string productTitle, std::string productType, int calories
 {
     _productType = productType;
     _productTitle = productTitle;
-    
-    if(calories > 0)
+
+    if (calories > 0)
         _calories = calories;
     else
         _calories = 0;
-    
-    if(weight > 0)
+
+    if (weight > 0)
         _weight = weight;
     else
         _weight = 0;
@@ -46,7 +46,7 @@ std::string Product::GetProductType()const
 
 void Product::SetCalories(int calories)
 {
-    if(calories > 0)
+    if (calories > 0)
         _calories = calories;
     else
         _calories = 0;
@@ -64,7 +64,7 @@ int Product::GetWeight()const
 
 void Product::SetWeight(int weight)
 {
-    if(weight > 0)
+    if (weight > 0)
         _weight = weight;
     else
         _weight = 0;

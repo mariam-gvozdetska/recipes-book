@@ -1,36 +1,57 @@
-#pragma once
+#include "RecipesBook.h"
 
-#define WIN32_LEAN_AND_MEAN
-
-#ifdef _WIN32
-    #include <windows.h>
-    #include <winsock2.h>
-    #include <ws2tcpip.h>
-#else
-    #include <sys/socket.h>
-    #include <sys/types.h>
-    #include <netinet/in.h>
-    #include <arpa/inet.h>
-    #include <unistd.h>
-#endif
-
-#include <string>
-#include <stdexcept>
-#include <vector>
-
-// Need to link with Ws2_32.lib
-#pragma comment (lib, "Ws2_32.lib")
-
-class Server
+RecipesBook::RecipesBook()
 {
-    const char* DEFAULT_PORT;
-    SOCKET ListenSocket, ClientSocket;
-    struct addrinfo* result, hints;
-    int code_error;
-public:
-    Server();
-    void ConnectToClient();
-	void SendMessageToClient(const std::string& sendbuf);
-    std::string RecieveMessageFromClient();
-    ~Server();
-};
+    _title = "";
+}
+
+RecipesBook::RecipesBook(std::vector<Dish> recipes, std::string title)
+{
+    _recipes = recipes;
+    _title = title;
+}
+
+void RecipesBook::AddDish(Dish dish)
+{
+    _recipes.push_back(dish);
+}
+
+void RecipesBook::DeleteDish(Dish dish)
+{
+    std::vector<Dish>::iterator it1;
+
+    for (auto it = _recipes.begin(); it != _recipes.end(); it++)
+        if (*it == dish)
+            it1 = it;
+
+    _recipes.erase(it1);
+}
+
+std::vector<Dish> RecipesBook::GetByCuisine(Cuisine cuisine)
+{
+    std::vector<Dish> result;
+    for (auto recipe : _recipes)
+    {
+        if (recipe.GetCuisine() == cuisine)
+            result.push_back(recipe);
+    }
+    return result;
+}
+
+std::vector<Dish> RecipesBook::GetByType(DishType dishType)
+{
+    std::vector<Dish> result;
+    for (auto recipe : _recipes)
+        if (recipe.GetType() == dishType)
+            result.push_back(recipe);
+    return result;
+}
+
+std::vector<Dish> RecipesBook::GetByProduct(Product& product)
+{
+    std::vector<Dish> result;
+    for (auto recipe : _recipes)
+        if (recipe.IsUsed(product))
+            result.push_back(recipe);
+    return result;
+}

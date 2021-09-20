@@ -15,10 +15,12 @@ Server::Server()
     }
 
     ZeroMemory(&hints, sizeof(hints));
-    hints.ai_family = AF_INET;
+    hints.ai_family = AF_INET; // AF_INET PF_INET
     hints.ai_socktype = SOCK_STREAM;
     hints.ai_protocol = IPPROTO_TCP;
     hints.ai_flags = AI_PASSIVE;
+
+    std::cout << "Server is ready for connections." << std::endl;
 }
 
 void Server::ConnectToClient()
@@ -69,6 +71,8 @@ void Server::ConnectToClient()
         throw std::runtime_error("accept failed with error: " + std::to_string(WSAGetLastError()));
     }
 
+    std::cout << "Connection with client is successful." << std::endl;
+
     // No longer need server socket
     closesocket(ListenSocket);
 }
@@ -84,6 +88,7 @@ void Server::SendMessageToClient(const std::string& sendbuf)
         WSACleanup();
         throw std::runtime_error("send failed with error: " + std::to_string(WSAGetLastError()));
     }
+    std::cout << "Message has been successfully send to client." << std::endl;
 }
 
 std::string Server::RecieveMessageFromClient()
@@ -108,6 +113,8 @@ std::string Server::RecieveMessageFromClient()
             result.append(buffer.cbegin(), buffer.cbegin() + bytesReceived);
         }
     } while (bytesReceived == MAX_BUF_LENGTH);
+
+    std::cout << "Client send message on server. Server recieved message." << std::endl;
 
     return result;
 }
