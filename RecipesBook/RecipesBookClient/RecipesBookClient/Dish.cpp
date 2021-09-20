@@ -1,4 +1,4 @@
-#include "Dish.hpp"
+#include "Dish.h"
 
 Dish::Dish()
 {
@@ -13,22 +13,22 @@ Dish::Dish(std::vector<Product> products, Cuisine cuisine, int calories, int wei
 {
     _products = products;
     _cuisine = cuisine;
-    
-    if(calories > 0)
+
+    if (calories > 0)
         _calories = calories;
     else
         _calories = 0;
-    
-    if(weight > 0)
+
+    if (weight > 0)
         _weight = weight;
     else
         _weight = 0;
-    
+
     _title = title;
     _dishType = dishType;
 }
 
-void Dish::AddProduct(const Product product)
+void Dish::AddProduct(const Product& product)
 {
     _products.push_back(product);
 }
@@ -37,9 +37,9 @@ void Dish::DeleteProduct(Product product)
 {
     std::vector<Product>::iterator it1;
     for (auto it = _products.begin(); it != _products.end(); it++)
-           if(*it == product)
-               it1 = it;
-    
+        if (*it == product)
+            it1 = it;
+
     _products.erase(it1);
 }
 
@@ -60,7 +60,7 @@ int Dish::GetCalories()const
 
 void Dish::SetCalories(int calories)
 {
-    if(calories > 0)
+    if (calories > 0)
         _calories = calories;
     else
         _calories = 0;
@@ -73,7 +73,7 @@ int Dish::GetWeight()const
 
 void Dish::SetWeight(int weight)
 {
-    if(weight > 0)
+    if (weight > 0)
         _weight = weight;
     else
         _weight = 0;
@@ -101,6 +101,11 @@ void Dish::SetType(DishType dishType)
 
 void Dish::Print()const
 {
+    std::cout << "Dish title: " << _title << std::endl;
+    std::cout << "Cuisine: " << _cuisine << std::endl;
+    std::cout << "Calories: " << _calories << std::endl;
+    std::cout << "Weight: " << _weight << std::endl;
+    std::cout << "Dish type: " << _dishType << std::endl;
     for (auto item : _products)
     {
         item.Print();
@@ -114,8 +119,8 @@ bool Dish::operator==(const Dish& r)
 
 bool Dish::IsUsed(Product product)
 {
-    for(auto item : _products)
-        if(item.GetProductTitle() == product.GetProductTitle())
+    for (auto item : _products)
+        if (item.GetProductTitle() == product.GetProductTitle())
             return true;
     return false;
 }
