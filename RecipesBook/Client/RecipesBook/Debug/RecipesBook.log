@@ -1,0 +1,2 @@
+﻿  MainForm.cpp
+C:\Users\Alexander\OneDrive\Робочий стіл\Eleks\RecipesBook\RecipesBook\MainForm.h(78): error C4716: 'RecipesBook::MainForm::GetActualMenu': must return a value

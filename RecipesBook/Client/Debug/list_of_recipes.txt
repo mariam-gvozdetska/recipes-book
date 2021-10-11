@@ -1,0 +1,1360 @@
+{
+	"dish1": [{
+		"products": [{
+				"product1": {
+					"productTitle": "Beet",
+					"productType": "Vegetable",
+					"calories": 20,
+					"weight": 20
+				}
+			},
+
+			{
+				"product2": {
+					"productTitle": "Rusk",
+					"productType": "Bread",
+					"calories": 30,
+					"weight": 25
+				}
+			},
+
+			{
+				"product3": {
+					"productTitle": "Oil",
+					"productType": "Oil",
+					"calories": 50,
+					"weight": 55
+				}
+			},
+
+			{
+				"product4": {
+					"productTitle": "Soil",
+					"productType": "Soil",
+					"calories": 50,
+					"weight": 55
+				}
+			}
+		],
+
+		"cuisine": 10,
+		"calories": 1000,
+		"weight": 1050,
+		"title": "SALAD WITH BEET AND BREAD",
+		"dishType": 2
+	}],
+
+	"dish2": [{
+		"products": [{
+				"product1": {
+					"productTitle": "Beet",
+					"productType": "Vegetable",
+					"calories": 20,
+					"weight": 20
+				}
+			},
+
+			{
+				"product2": {
+					"productTitle": "Potato",
+					"productType": "Vegatable",
+					"calories": 30,
+					"weight": 25
+				}
+			},
+
+			{
+				"product3": {
+					"productTitle": "Oil",
+					"productType": "Oil",
+					"calories": 50,
+					"weight": 55
+				}
+			},
+
+			{
+				"product4": {
+					"productTitle": "Soil",
+					"productType": "Soil",
+					"calories": 50,
+					"weight": 55
+				}
+			},
+
+			{
+				"product5": {
+					"productTitle": "Sauerkraut",
+					"productType": "Vegatable",
+					"calories": 50,
+					"weight": 55
+				}
+			}
+		],
+
+		"cuisine": 10,
+		"calories": 1000,
+		"weight": 1050,
+		"title": "SALAD WITH BURYAK, POTATO",
+		"dishType": 2
+	}],
+
+	"dish3": [{
+		"products": [{
+				"product1": {
+					"productTitle": "Beet",
+					"productType": "Vegetable",
+					"calories": 20,
+					"weight": 20
+				}
+			},
+
+			{
+				"product2": {
+					"productTitle": "Potato",
+					"productType": "Vegatable",
+					"calories": 30,
+					"weight": 25
+				}
+			},
+
+			{
+				"product3": {
+					"productTitle": "Oil",
+					"productType": "Oil",
+					"calories": 50,
+					"weight": 55
+				}
+			},
+
+			{
+				"product4": {
+					"productTitle": "Soil",
+					"productType": "Soil",
+					"calories": 50,
+					"weight": 55
+				}
+			},
+
+			{
+				"product5": {
+					"productTitle": "Meat",
+					"productType": "Meat",
+					"calories": 50,
+					"weight": 55
+				}
+			}
+		],
+
+		"cuisine": 10,
+		"calories": 1000,
+		"weight": 1050,
+		"title": "Borsch",
+		"dishType": 1
+	}],
+
+	"dish4": [{
+		"products": [{
+				"product1": {
+					"productTitle": "Wheat flour",
+					"productType": "Flour",
+					"calories": 178,
+					"weight": 53
+				}
+			},
+
+			{
+				"product2": {
+					"productTitle": "Butter",
+					"productType": "Butter",
+					"calories": 128,
+					"weight": 17
+				}
+			},
+
+			{
+				"product3": {
+					"productTitle": "Cow's milk",
+					"productType": "Milk",
+					"calories": 494,
+					"weight": 950
+				}
+			},
+
+			{
+				"product4": {
+					"productTitle": "Nutmeg",
+					"productType": "Nuts",
+					"calories": 40,
+					"weight": 6
+				}
+			}
+		],
+
+		"cuisine": 8,
+		"calories": 840,
+		"weight": 1000,
+		"title": "Bechamel sauce",
+		"dishType": 7
+	}],
+
+	"dish5": [{
+		"products": [{
+				"product1": {
+					"productTitle": "Onion",
+					"productType": "Vegatable",
+					"calories": 200,
+					"weight": 1071
+				}
+			},
+
+			{
+				"product2": {
+					"productTitle": "Sunflower oil",
+					"productType": "Oil",
+					"calories": 360,
+					"weight": 40
+				}
+			},
+
+			{
+				"product3": {
+					"productTitle": "Sugar",
+					"productType": "Spices",
+					"calories": 1592,
+					"weight": 400
+				}
+			},
+
+			{
+				"product4": {
+					"productTitle": "Citric acid",
+					"productType": "Spices",
+					"calories": 1,
+					"weight": 3
+				}
+			}
+		],
+
+		"cuisine": 8,
+		"calories": 2153,
+		"weight": 1000,
+		"title": "Onion sauce",
+		"dishType": 7
+	}],
+
+	"dish6": [{
+		"products": [{
+				"product1": {
+					"productTitle": "Hake",
+					"productType": "Fish",
+					"calories": 52,
+					"weight": 60
+				}
+			},
+
+			{
+				"product2": {
+					"productTitle": "Wheat flour",
+					"productType": "Flour",
+					"calories": 17,
+					"weight": 5
+				}
+			},
+
+			{
+				"product3": {
+					"productTitle": "Sunflower oil",
+					"productType": "Oil",
+					"calories": 27,
+					"weight": 3
+				}
+			},
+
+			{
+				"product4": {
+					"productTitle": "Black pepper",
+					"productType": "Spices",
+					"calories": 1,
+					"weight": 1
+				}
+			},
+
+			{
+				"product5": {
+					"productTitle": "Citric acid",
+					"productType": "Spices",
+					"calories": 1,
+					"weight": 1
+				}
+			},
+
+			{
+				"product6": {
+					"productTitle": "Salt",
+					"productType": "Spices",
+					"calories": 1,
+					"weight": 1
+				}
+			}
+		],
+
+		"cuisine": 7,
+		"calories": 83,
+		"weight": 50,
+		"title": "Fried hake",
+		"dishType": 4
+	}],
+
+	"dish7": [{
+		"products": [{
+				"product1": {
+					"productTitle": "Chicken",
+					"productType": "Meat",
+					"calories": 72,
+					"weight": 65
+				}
+			},
+
+			{
+				"product2": {
+					"productTitle": "Paprika",
+					"productType": "Spices",
+					"calories": 1,
+					"weight": 1
+				}
+			},
+
+			{
+				"product3": {
+					"productTitle": "Sunflower oil",
+					"productType": "Oil",
+					"calories": 27,
+					"weight": 3
+				}
+			},
+
+			{
+				"product4": {
+					"productTitle": "Black pepper",
+					"productType": "Spices",
+					"calories": 1,
+					"weight": 1
+				}
+			},
+
+			{
+				"product5": {
+					"productTitle": "Salt",
+					"productType": "Spices",
+					"calories": 1,
+					"weight": 1
+				}
+			}
+		],
+
+		"cuisine": 6,
+		"calories": 71,
+		"weight": 50,
+		"title": "Chicken with paprika",
+		"dishType": 4
+	}],
+
+	"dish8": [{
+		"products": [{
+				"product1": {
+					"productTitle": "Rice",
+					"productType": "Cereals",
+					"calories": 280,
+					"weight": 80
+				}
+			},
+
+			{
+				"product2": {
+					"productTitle": "Potatoes",
+					"productType": "Vegetable",
+					"calories": 25,
+					"weight": 40
+				}
+			},
+
+			{
+				"product3": {
+					"productTitle": "Smashed tomatoes",
+					"productType": "Vegetable",
+					"calories": 30,
+					"weight": 6
+				}
+			},
+
+			{
+				"product4": {
+					"productTitle": "Onion",
+					"productType": "Vegetable",
+					"calories": 40,
+					"weight": 16
+				}
+			},
+
+			{
+				"product5": {
+					"productTitle": "Salt",
+					"productType": "Spices",
+					"calories": 1,
+					"weight": 1
+				}
+			}
+		],
+
+		"cuisine": 10,
+		"calories": 143,
+		"weight": 1000,
+		"title": "Soup with rice and tomatoes",
+		"dishType": 3
+	}],
+
+	"dish9": [{
+		"products": [{
+				"product1": {
+					"productTitle": "White cabbage",
+					"productType": "Vegetable",
+					"calories": 22,
+					"weight": 80
+				}
+			},
+
+			{
+				"product2": {
+					"productTitle": "Pumpkin",
+					"productType": "Vegetable",
+					"calories": 23,
+					"weight": 80
+				}
+			},
+
+			{
+				"product3": {
+					"productTitle": "Garlic",
+					"productType": "Vegetable",
+					"calories": 30,
+					"weight": 20
+				}
+			},
+
+			{
+				"product4": {
+					"productTitle": "Pearl Barely",
+					"productType": "Cereals",
+					"calories": 75,
+					"weight": 70
+				}
+			},
+
+			{
+				"product5": {
+					"productTitle": "Salt",
+					"productType": "Spices",
+					"calories": 6,
+					"weight": 6
+				}
+			}
+		],
+
+		"cuisine": 10,
+		"calories": 156,
+		"weight": 1000,
+		"title": "Soup with pumpkin",
+		"dishType": 3
+	}],
+
+	"dish10": [{
+		"products": [{
+				"product1": {
+					"productTitle": "Carrot",
+					"productType": "Vegetable",
+					"calories": 280,
+					"weight": 730
+				}
+			},
+
+			{
+				"product2": {
+					"productTitle": "Cheese Russian",
+					"productType": "Cheese",
+					"calories": 400,
+					"weight": 120
+				}
+			},
+
+			{
+				"product3": {
+					"productTitle": "Sour cream",
+					"productType": "Milk products",
+					"calories": 200,
+					"weight": 120
+				}
+			},
+
+			{
+				"product4": {
+					"productTitle": "Sunflower oil",
+					"productType": "Oil",
+					"calories": 225,
+					"weight": 25
+				}
+			},
+
+			{
+				"product5": {
+					"productTitle": "Salt",
+					"productType": "Spices",
+					"calories": 1,
+					"weight": 1
+				}
+			}
+		],
+
+		"cuisine": 10,
+		"calories": 906,
+		"weight": 1000,
+		"title": "Salad with carrot and cheese",
+		"dishType": 2
+	}],
+
+	"dish11": [{
+		"products": [{
+				"product1": {
+					"productTitle": "Beet",
+					"productType": "Vegetable",
+					"calories": 160,
+					"weight": 400
+				}
+			},
+
+			{
+				"product2": {
+					"productTitle": "Fermented cabbage",
+					"productType": "Vegetable",
+					"calories": 60,
+					"weight": 300
+				}
+			},
+
+			{
+				"product3": {
+					"productTitle": "Apples",
+					"productType": "Fruits",
+					"calories": 115,
+					"weight": 250
+				}
+			},
+
+			{
+				"product4": {
+					"productTitle": "Sunflower oil",
+					"productType": "Oil",
+					"calories": 500,
+					"weight": 50
+				}
+			},
+
+			{
+				"product5": {
+					"productTitle": "Salt",
+					"productType": "Spices",
+					"calories": 5,
+					"weight": 5
+				}
+			}
+		],
+
+		"cuisine": 10,
+		"calories": 840,
+		"weight": 1000,
+		"title": "Salad with apples and fermented cabbage",
+		"dishType": 2
+	}],
+
+	"dish12": [{
+		"products": [{
+				"product1": {
+					"productTitle": "Green salad",
+					"productType": "Vegetable",
+					"calories": 36,
+					"weight": 300
+				}
+			},
+
+			{
+				"product2": {
+					"productTitle": "Cucumbers",
+					"productType": "Vegetable",
+					"calories": 45,
+					"weight": 360
+				}
+			},
+
+			{
+				"product3": {
+					"productTitle": "Tomatoes",
+					"productType": "Vegetable",
+					"calories": 60,
+					"weight": 300
+				}
+			},
+
+			{
+				"product4": {
+					"productTitle": "Sunflower oil",
+					"productType": "Oil",
+					"calories": 500,
+					"weight": 50
+				}
+			},
+
+			{
+				"product5": {
+					"productTitle": "Salt",
+					"productType": "Spices",
+					"calories": 5,
+					"weight": 5
+				}
+			}
+		],
+
+		"cuisine": 10,
+		"calories": 646,
+		"weight": 1000,
+		"title": "Green salad",
+		"dishType": 2
+	}],
+
+	"dish13": [{
+		"products": [{
+				"product1": {
+					"productTitle": "Potato",
+					"productType": "Vegetable",
+					"calories": 520,
+					"weight": 800
+				}
+			},
+
+			{
+				"product2": {
+					"productTitle": "Pickles",
+					"productType": "Vegetable",
+					"calories": 22,
+					"weight": 200
+				}
+			},
+
+			{
+				"product3": {
+					"productTitle": "Forced garlic",
+					"productType": "Vegetable",
+					"calories": 5,
+					"weight": 3
+				}
+			},
+
+			{
+				"product4": {
+					"productTitle": "Sunflower oil",
+					"productType": "Oil",
+					"calories": 500,
+					"weight": 50
+				}
+			},
+
+			{
+				"product5": {
+					"productTitle": "Salt",
+					"productType": "Spices",
+					"calories": 5,
+					"weight": 5
+				}
+			}
+		],
+
+		"cuisine": 10,
+		"calories": 1052,
+		"weight": 1000,
+		"title": "Potato salad",
+		"dishType": 2
+	}],
+
+	"dish14": [{
+		"products": [{
+				"product1": {
+					"productTitle": "Pasta togliatelle",
+					"productType": "Pasta",
+					"calories": 900,
+					"weight": 400
+				}
+			},
+
+			{
+				"product2": {
+					"productTitle": "Sour cream",
+					"productType": "Milk products",
+					"calories": 340,
+					"weight": 300
+				}
+			},
+
+			{
+				"product3": {
+					"productTitle": "Butter",
+					"productType": "Milk products",
+					"calories": 300,
+					"weight": 40
+				}
+			},
+
+			{
+				"product4": {
+					"productTitle": "Pepper",
+					"productType": "Spices",
+					"calories": 2,
+					"weight": 2
+				}
+			},
+
+			{
+				"product5": {
+					"productTitle": "Salt",
+					"productType": "Spices",
+					"calories": 2,
+					"weight": 2
+				}
+			}
+		],
+
+		"cuisine": 7,
+		"calories": 1544,
+		"weight": 500,
+		"title": "Pasta with sour cream",
+		"dishType": 4
+	}],
+
+	"dish15": [{
+		"products": [{
+				"product1": {
+					"productTitle": "Warm milk",
+					"productType": "Pasta",
+					"calories": 52,
+					"weight": 100
+				}
+			},
+
+			{
+				"product2": {
+					"productTitle": "Sugar powder",
+					"productType": "Sugar",
+					"calories": 374,
+					"weight": 100
+				}
+			},
+
+			{
+				"product3": {
+					"productTitle": "Butter",
+					"productType": "Milk products",
+					"calories": 150,
+					"weight": 15
+				}
+			},
+
+			{
+				"product4": {
+					"productTitle": "Honey",
+					"productType": "Sugar",
+					"calories": 65,
+					"weight": 20
+				}
+			}
+		],
+
+		"cuisine": 1,
+		"calories": 641,
+		"weight": 200,
+		"title": "Homemade toffees",
+		"dishType": 6
+	}],
+
+	"dish16": [{
+		"products": [{
+				"product1": {
+					"productTitle": "Brown bread",
+					"productType": "Bread",
+					"calories": 800,
+					"weight": 500
+				}
+			},
+
+			{
+				"product2": {
+					"productTitle": "Water",
+					"productType": "Water",
+					"calories": 10,
+					"weight": 3000
+				}
+			},
+
+			{
+				"product3": {
+					"productTitle": "Dry yeast",
+					"productType": "Yeast",
+					"calories": 12,
+					"weight": 15
+				}
+			},
+
+			{
+				"product4": {
+					"productTitle": "Sugar",
+					"productType": "Sugar",
+					"calories": 498,
+					"weight": 125
+				}
+			}
+		],
+
+		"cuisine": 10,
+		"calories": 1320,
+		"weight": 2500,
+		"title": "Bread kvass",
+		"dishType": 8
+	}],
+
+	"dish17": [{
+		"products": [{
+				"product1": {
+					"productTitle": "Strong coffee",
+					"productType": "Coffee",
+					"calories": 6,
+					"weight": 300
+				}
+			},
+
+			{
+				"product2": {
+					"productTitle": "Ice",
+					"productType": "Water",
+					"calories": 0,
+					"weight": 20
+				}
+			},
+
+			{
+				"product3": {
+					"productTitle": "Milk",
+					"productType": "Milk",
+					"calories": 130,
+					"weight": 250
+				}
+			},
+
+			{
+				"product4": {
+					"productTitle": "Sugar",
+					"productType": "Sugar",
+					"calories": 80,
+					"weight": 20
+				}
+			},
+
+			{
+				"product5": {
+					"productTitle": "Vanilla icecream",
+					"productType": "Sugar",
+					"calories": 600,
+					"weight": 250
+				}
+			}
+		],
+
+		"cuisine": 3,
+		"calories": 816,
+		"weight": 500,
+		"title": "Milk coffee coctail",
+		"dishType": 8
+	}],
+
+	"dish18": [{
+		"products": [{
+				"product1": {
+					"productTitle": "Chicken liver",
+					"productType": "Meat",
+					"calories": 600,
+					"weight": 700
+				}
+			},
+
+			{
+				"product2": {
+					"productTitle": "Onion",
+					"productType": "Vegetable",
+					"calories": 21,
+					"weight": 50
+				}
+			},
+
+			{
+				"product3": {
+					"productTitle": "Carrot",
+					"productType": "Vegetable",
+					"calories": 16,
+					"weight": 50
+				}
+			},
+
+			{
+				"product4": {
+					"productTitle": "Sunflower oil",
+					"productType": "Oil",
+					"calories": 270,
+					"weight": 30
+				}
+			},
+
+			{
+				"product5": {
+					"productTitle": "Butter",
+					"productType": "Butter",
+					"calories": 300,
+					"weight": 40
+				}
+			},
+
+			{
+				"product6": {
+					"productTitle": "Salt",
+					"productType": "Spices",
+					"calories": 1,
+					"weight": 40
+				}
+			}
+		],
+
+		"cuisine": 4,
+		"calories": 1200,
+		"weight": 600,
+		"title": "Liver paste",
+		"dishType": 1
+	}],
+
+	"dish19": [{
+		"products": [{
+				"product1": {
+					"productTitle": "Tomatoe",
+					"productType": "Vegetable",
+					"calories": 400,
+					"weight": 2000
+				}
+			},
+
+			{
+				"product2": {
+					"productTitle": "Sugar",
+					"productType": "Sugar",
+					"calories": 398,
+					"weight": 100
+				}
+			},
+
+			{
+				"product3": {
+					"productTitle": "Peper",
+					"productType": "Vegetable",
+					"calories": 650,
+					"weight": 3000
+				}
+			},
+
+			{
+				"product4": {
+					"productTitle": "Sunflower oil",
+					"productType": "Oil",
+					"calories": 270,
+					"weight": 30
+				}
+			},
+
+			{
+				"product5": {
+					"productTitle": "Vinegar9%",
+					"productType": "Spices",
+					"calories": 13,
+					"weight": 40
+				}
+			},
+
+			{
+				"product6": {
+					"productTitle": "Salt",
+					"productType": "Spices",
+					"calories": 1,
+					"weight": 20
+				}
+			},
+
+			{
+				"product7": {
+					"productTitle": "Black pepper",
+					"productType": "Spices",
+					"calories": 13,
+					"weight": 5
+				}
+			}
+		],
+
+		"cuisine": 10,
+		"calories": 1745,
+		"weight": 2000,
+		"title": "Classic lecho",
+		"dishType": 5
+	}],
+
+	"dish20": [{
+		"products": [{
+				"product1": {
+					"productTitle": "Wild mushrooms",
+					"productType": "Vegetable",
+					"calories": 175,
+					"weight": 500
+				}
+			},
+
+			{
+				"product2": {
+					"productTitle": "Sour cream",
+					"productType": "Milk product",
+					"calories": 333,
+					"weight": 250
+				}
+			},
+
+			{
+				"product3": {
+					"productTitle": "Butter",
+					"productType": "Butter",
+					"calories": 524,
+					"weight": 70
+				}
+			},
+
+			{
+				"product4": {
+					"productTitle": "Sunflower oil",
+					"productType": "Oil",
+					"calories": 270,
+					"weight": 30
+				}
+			},
+
+			{
+				"product5": {
+					"productTitle": "Wheat flour",
+					"productType": "Flour",
+					"calories": 13,
+					"weight": 40
+				}
+			},
+
+			{
+				"product6": {
+					"productTitle": "Salt",
+					"productType": "Spices",
+					"calories": 1,
+					"weight": 20
+				}
+			},
+
+			{
+				"product7": {
+					"productTitle": "Black pepper",
+					"productType": "Spices",
+					"calories": 13,
+					"weight": 5
+				}
+			}
+		],
+
+		"cuisine": 8,
+		"calories": 1329,
+		"weight": 500,
+		"title": "Wild mushrooms in sour cream sauce",
+		"dishType": 4
+	}],
+
+	"dish21": [{
+		"products": [{
+				"product1": {
+					"productTitle": "Pita",
+					"productType": "Bread",
+					"calories": 400,
+					"weight": 500
+				}
+			},
+
+			{
+				"product2": {
+					"productTitle": "Chicken",
+					"productType": "Meat",
+					"calories": 340,
+					"weight": 250
+				}
+			},
+
+			{
+				"product3": {
+					"productTitle": "Tomatoes",
+					"productType": "Vegetable",
+					"calories": 14,
+					"weight": 70
+				}
+			},
+
+			{
+				"product4": {
+					"productTitle": "Salad",
+					"productType": "Vegetable",
+					"calories": 20,
+					"weight": 100
+				}
+			},
+
+			{
+				"product5": {
+					"productTitle": "Cucumber",
+					"productType": "Vegetable",
+					"calories": 10,
+					"weight": 60
+				}
+			},
+
+			{
+				"product6": {
+					"productTitle": "Salt",
+					"productType": "Spices",
+					"calories": 1,
+					"weight": 20
+				}
+			},
+
+			{
+				"product7": {
+					"productTitle": "Black pepper",
+					"productType": "Spices",
+					"calories": 13,
+					"weight": 5
+				}
+			}
+		],
+
+		"cuisine": 3,
+		"calories": 792,
+		"weight": 500,
+		"title": "Homemade shawarmma",
+		"dishType": 5
+	}],
+
+	"dish22": [{
+		"products": [{
+				"product1": {
+					"productTitle": "Crackers",
+					"productType": "Bread",
+					"calories": 400,
+					"weight": 300
+				}
+			},
+
+			{
+				"product2": {
+					"productTitle": "Chicken",
+					"productType": "Meat",
+					"calories": 600,
+					"weight": 700
+				}
+			},
+
+			{
+				"product3": {
+					"productTitle": "Chicken eggs",
+					"productType": "Eggs",
+					"calories": 140,
+					"weight": 70
+				}
+			},
+
+			{
+				"product4": {
+					"productTitle": "Sunflower oil",
+					"productType": "Oil",
+					"calories": 200,
+					"weight": 100
+				}
+			},
+
+			{
+				"product5": {
+					"productTitle": "Paprika",
+					"productType": "Spices",
+					"calories": 10,
+					"weight": 60
+				}
+			},
+
+			{
+				"product6": {
+					"productTitle": "Salt",
+					"productType": "Spices",
+					"calories": 1,
+					"weight": 20
+				}
+			},
+
+			{
+				"product7": {
+					"productTitle": "Black pepper",
+					"productType": "Spices",
+					"calories": 13,
+					"weight": 5
+				}
+			}
+		],
+
+		"cuisine": 3,
+		"calories": 1624,
+		"weight": 500,
+		"title": "Nuggets",
+		"dishType": 1
+	}],
+
+	"dish23": [{
+		"products": [{
+				"product1": {
+					"productTitle": "White bread",
+					"productType": "Bread",
+					"calories": 590,
+					"weight": 300
+				}
+			},
+
+			{
+				"product2": {
+					"productTitle": "Mozzarella",
+					"productType": "Cheese",
+					"calories": 240,
+					"weight": 100
+				}
+			},
+
+			{
+				"product3": {
+					"productTitle": "Garlic",
+					"productType": "Vegetable",
+					"calories": 2,
+					"weight": 10
+				}
+			},
+
+			{
+				"product4": {
+					"productTitle": "Tomatoe",
+					"productType": "Vegetable",
+					"calories": 20,
+					"weight": 100
+				}
+			},
+
+			{
+				"product5": {
+					"productTitle": "Sunflower oil",
+					"productType": "Oil",
+					"calories": 270,
+					"weight": 30
+				}
+			},
+
+			{
+				"product6": {
+					"productTitle": "Salt",
+					"productType": "Spices",
+					"calories": 1,
+					"weight": 20
+				}
+			},
+
+			{
+				"product7": {
+					"productTitle": "Black pepper",
+					"productType": "Spices",
+					"calories": 13,
+					"weight": 5
+				}
+			}
+		],
+
+		"cuisine": 8,
+		"calories": 1100,
+		"weight": 350,
+		"title": "Bruschetta with tomatoes",
+		"dishType": 0
+	}],
+
+	"dish24": [{
+		"products": [{
+				"product1": {
+					"productTitle": "White bread",
+					"productType": "Bread",
+					"calories": 200,
+					"weight": 150
+				}
+			},
+
+			{
+				"product2": {
+					"productTitle": "Sausage",
+					"productType": "Meat",
+					"calories": 270,
+					"weight": 80
+				}
+			},
+
+			{
+				"product3": {
+					"productTitle": "Cucumber",
+					"productType": "Vegetable",
+					"calories": 20,
+					"weight": 50
+				}
+			},
+
+			{
+				"product4": {
+					"productTitle": "Tomatoe",
+					"productType": "Vegetable",
+					"calories": 10,
+					"weight": 50
+				}
+			},
+
+			{
+				"product5": {
+					"productTitle": "Olives",
+					"productType": "Vegetable",
+					"calories": 46,
+					"weight": 40
+				}
+			}
+		],
+
+		"cuisine": 8,
+		"calories": 540,
+		"weight": 100,
+		"title": "Sandwich",
+		"dishType": 0
+	}]
+}
