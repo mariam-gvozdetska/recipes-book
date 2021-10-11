@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		601C535326D9003E006BAFA1 /* Server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 601C535126D9003D006BAFA1 /* Server.cpp */; };
+		60406DA426D65AEA008E93DD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60406DA326D65AEA008E93DD /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		60406D9E26D65AEA008E93DD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		601C535126D9003D006BAFA1 /* Server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Server.cpp; sourceTree = "<group>"; };
+		60406DA026D65AEA008E93DD /* RecipesBookServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RecipesBookServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		60406DA326D65AEA008E93DD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		60675C5E26F9B6AB006B4BD8 /* LICENSE.MIT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.MIT; sourceTree = "<group>"; };
+		60675C6126F9B6AB006B4BD8 /* ordered_map.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ordered_map.hpp; sourceTree = "<group>"; };
+		60675C6226F9B6AB006B4BD8 /* json.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json.hpp; sourceTree = "<group>"; };
+		60675C6326F9B6AB006B4BD8 /* adl_serializer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = adl_serializer.hpp; sourceTree = "<group>"; };
+		60675C6426F9B6AB006B4BD8 /* byte_container_with_subtype.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = byte_container_with_subtype.hpp; sourceTree = "<group>"; };
+		60675C6626F9B6AB006B4BD8 /* hash.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = hash.hpp; sourceTree = "<group>"; };
+		60675C6726F9B6AB006B4BD8 /* string_escape.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = string_escape.hpp; sourceTree = "<group>"; };
+		60675C6826F9B6AB006B4BD8 /* json_ref.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json_ref.hpp; sourceTree = "<group>"; };
+		60675C6A26F9B6AB006B4BD8 /* to_chars.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = to_chars.hpp; sourceTree = "<group>"; };
+		60675C6B26F9B6AB006B4BD8 /* from_json.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = from_json.hpp; sourceTree = "<group>"; };
+		60675C6C26F9B6AB006B4BD8 /* to_json.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = to_json.hpp; sourceTree = "<group>"; };
+		60675C6D26F9B6AB006B4BD8 /* value_t.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = value_t.hpp; sourceTree = "<group>"; };
+		60675C6F26F9B6AB006B4BD8 /* position_t.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = position_t.hpp; sourceTree = "<group>"; };
+		60675C7026F9B6AB006B4BD8 /* parser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = parser.hpp; sourceTree = "<group>"; };
+		60675C7126F9B6AB006B4BD8 /* json_sax.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json_sax.hpp; sourceTree = "<group>"; };
+		60675C7226F9B6AB006B4BD8 /* binary_reader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = binary_reader.hpp; sourceTree = "<group>"; };
+		60675C7326F9B6AB006B4BD8 /* input_adapters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = input_adapters.hpp; sourceTree = "<group>"; };
+		60675C7426F9B6AB006B4BD8 /* lexer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lexer.hpp; sourceTree = "<group>"; };
+		60675C7526F9B6AB006B4BD8 /* macro_scope.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = macro_scope.hpp; sourceTree = "<group>"; };
+		60675C7726F9B6AB006B4BD8 /* output_adapters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = output_adapters.hpp; sourceTree = "<group>"; };
+		60675C7826F9B6AB006B4BD8 /* serializer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = serializer.hpp; sourceTree = "<group>"; };
+		60675C7926F9B6AB006B4BD8 /* binary_writer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = binary_writer.hpp; sourceTree = "<group>"; };
+		60675C7B26F9B6AB006B4BD8 /* is_sax.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = is_sax.hpp; sourceTree = "<group>"; };
+		60675C7C26F9B6AB006B4BD8 /* identity_tag.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = identity_tag.hpp; sourceTree = "<group>"; };
+		60675C7D26F9B6AB006B4BD8 /* type_traits.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = type_traits.hpp; sourceTree = "<group>"; };
+		60675C7E26F9B6AB006B4BD8 /* cpp_future.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cpp_future.hpp; sourceTree = "<group>"; };
+		60675C7F26F9B6AB006B4BD8 /* detected.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = detected.hpp; sourceTree = "<group>"; };
+		60675C8026F9B6AB006B4BD8 /* void_t.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = void_t.hpp; sourceTree = "<group>"; };
+		60675C8126F9B6AB006B4BD8 /* json_pointer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json_pointer.hpp; sourceTree = "<group>"; };
+		60675C8226F9B6AB006B4BD8 /* exceptions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = exceptions.hpp; sourceTree = "<group>"; };
+		60675C8326F9B6AB006B4BD8 /* macro_unscope.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = macro_unscope.hpp; sourceTree = "<group>"; };
+		60675C8526F9B6AB006B4BD8 /* iter_impl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = iter_impl.hpp; sourceTree = "<group>"; };
+		60675C8626F9B6AB006B4BD8 /* json_reverse_iterator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json_reverse_iterator.hpp; sourceTree = "<group>"; };
+		60675C8726F9B6AB006B4BD8 /* iteration_proxy.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = iteration_proxy.hpp; sourceTree = "<group>"; };
+		60675C8826F9B6AB006B4BD8 /* iterator_traits.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = iterator_traits.hpp; sourceTree = "<group>"; };
+		60675C8926F9B6AB006B4BD8 /* internal_iterator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = internal_iterator.hpp; sourceTree = "<group>"; };
+		60675C8A26F9B6AB006B4BD8 /* primitive_iterator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = primitive_iterator.hpp; sourceTree = "<group>"; };
+		60675C8D26F9B6AB006B4BD8 /* hedley.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = hedley.hpp; sourceTree = "<group>"; };
+		60675C8E26F9B6AB006B4BD8 /* hedley_undef.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = hedley_undef.hpp; sourceTree = "<group>"; };
+		60675C8F26F9B6AB006B4BD8 /* json_fwd.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json_fwd.hpp; sourceTree = "<group>"; };
+		60675C9026F9B6AB006B4BD8 /* meson.build */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = meson.build; sourceTree = "<group>"; };
+		60675C9326F9B6AB006B4BD8 /* json.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json.hpp; sourceTree = "<group>"; };
+		60675C9526F9B6DA006B4BD8 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60406D9D26D65AEA008E93DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60406D9726D65AEA008E93DD = {
+			isa = PBXGroup;
+			children = (
+				60675C9426F9B6DA006B4BD8 /* include */,
+				60675C5C26F9B6AB006B4BD8 /* Dependencies */,
+				60406DA226D65AEA008E93DD /* RecipesBookServer */,
+				60406DA126D65AEA008E93DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60406DA126D65AEA008E93DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60406DA026D65AEA008E93DD /* RecipesBookServer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60406DA226D65AEA008E93DD /* RecipesBookServer */ = {
+			isa = PBXGroup;
+			children = (
+				60406DA326D65AEA008E93DD /* main.cpp */,
+				601C535126D9003D006BAFA1 /* Server.cpp */,
+			);
+			path = RecipesBookServer;
+			sourceTree = "<group>";
+		};
+		60675C5C26F9B6AB006B4BD8 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				60675C5D26F9B6AB006B4BD8 /* json */,
+			);
+			name = Dependencies;
+			path = RecipesBookServer/Dependencies;
+			sourceTree = "<group>";
+		};
+		60675C5D26F9B6AB006B4BD8 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				60675C5E26F9B6AB006B4BD8 /* LICENSE.MIT */,
+				60675C5F26F9B6AB006B4BD8 /* include */,
+				60675C9026F9B6AB006B4BD8 /* meson.build */,
+				60675C9126F9B6AB006B4BD8 /* single_include */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		60675C5F26F9B6AB006B4BD8 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				60675C6026F9B6AB006B4BD8 /* nlohmann */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		60675C6026F9B6AB006B4BD8 /* nlohmann */ = {
+			isa = PBXGroup;
+			children = (
+				60675C6126F9B6AB006B4BD8 /* ordered_map.hpp */,
+				60675C6226F9B6AB006B4BD8 /* json.hpp */,
+				60675C6326F9B6AB006B4BD8 /* adl_serializer.hpp */,
+				60675C6426F9B6AB006B4BD8 /* byte_container_with_subtype.hpp */,
+				60675C6526F9B6AB006B4BD8 /* detail */,
+				60675C8B26F9B6AB006B4BD8 /* thirdparty */,
+				60675C8F26F9B6AB006B4BD8 /* json_fwd.hpp */,
+			);
+			path = nlohmann;
+			sourceTree = "<group>";
+		};
+		60675C6526F9B6AB006B4BD8 /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				60675C6626F9B6AB006B4BD8 /* hash.hpp */,
+				60675C6726F9B6AB006B4BD8 /* string_escape.hpp */,
+				60675C6826F9B6AB006B4BD8 /* json_ref.hpp */,
+				60675C6926F9B6AB006B4BD8 /* conversions */,
+				60675C6D26F9B6AB006B4BD8 /* value_t.hpp */,
+				60675C6E26F9B6AB006B4BD8 /* input */,
+				60675C7526F9B6AB006B4BD8 /* macro_scope.hpp */,
+				60675C7626F9B6AB006B4BD8 /* output */,
+				60675C7A26F9B6AB006B4BD8 /* meta */,
+				60675C8126F9B6AB006B4BD8 /* json_pointer.hpp */,
+				60675C8226F9B6AB006B4BD8 /* exceptions.hpp */,
+				60675C8326F9B6AB006B4BD8 /* macro_unscope.hpp */,
+				60675C8426F9B6AB006B4BD8 /* iterators */,
+			);
+			path = detail;
+			sourceTree = "<group>";
+		};
+		60675C6926F9B6AB006B4BD8 /* conversions */ = {
+			isa = PBXGroup;
+			children = (
+				60675C6A26F9B6AB006B4BD8 /* to_chars.hpp */,
+				60675C6B26F9B6AB006B4BD8 /* from_json.hpp */,
+				60675C6C26F9B6AB006B4BD8 /* to_json.hpp */,
+			);
+			path = conversions;
+			sourceTree = "<group>";
+		};
+		60675C6E26F9B6AB006B4BD8 /* input */ = {
+			isa = PBXGroup;
+			children = (
+				60675C6F26F9B6AB006B4BD8 /* position_t.hpp */,
+				60675C7026F9B6AB006B4BD8 /* parser.hpp */,
+				60675C7126F9B6AB006B4BD8 /* json_sax.hpp */,
+				60675C7226F9B6AB006B4BD8 /* binary_reader.hpp */,
+				60675C7326F9B6AB006B4BD8 /* input_adapters.hpp */,
+				60675C7426F9B6AB006B4BD8 /* lexer.hpp */,
+			);
+			path = input;
+			sourceTree = "<group>";
+		};
+		60675C7626F9B6AB006B4BD8 /* output */ = {
+			isa = PBXGroup;
+			children = (
+				60675C7726F9B6AB006B4BD8 /* output_adapters.hpp */,
+				60675C7826F9B6AB006B4BD8 /* serializer.hpp */,
+				60675C7926F9B6AB006B4BD8 /* binary_writer.hpp */,
+			);
+			path = output;
+			sourceTree = "<group>";
+		};
+		60675C7A26F9B6AB006B4BD8 /* meta */ = {
+			isa = PBXGroup;
+			children = (
+				60675C7B26F9B6AB006B4BD8 /* is_sax.hpp */,
+				60675C7C26F9B6AB006B4BD8 /* identity_tag.hpp */,
+				60675C7D26F9B6AB006B4BD8 /* type_traits.hpp */,
+				60675C7E26F9B6AB006B4BD8 /* cpp_future.hpp */,
+				60675C7F26F9B6AB006B4BD8 /* detected.hpp */,
+				60675C8026F9B6AB006B4BD8 /* void_t.hpp */,
+			);
+			path = meta;
+			sourceTree = "<group>";
+		};
+		60675C8426F9B6AB006B4BD8 /* iterators */ = {
+			isa = PBXGroup;
+			children = (
+				60675C8526F9B6AB006B4BD8 /* iter_impl.hpp */,
+				60675C8626F9B6AB006B4BD8 /* json_reverse_iterator.hpp */,
+				60675C8726F9B6AB006B4BD8 /* iteration_proxy.hpp */,
+				60675C8826F9B6AB006B4BD8 /* iterator_traits.hpp */,
+				60675C8926F9B6AB006B4BD8 /* internal_iterator.hpp */,
+				60675C8A26F9B6AB006B4BD8 /* primitive_iterator.hpp */,
+			);
+			path = iterators;
+			sourceTree = "<group>";
+		};
+		60675C8B26F9B6AB006B4BD8 /* thirdparty */ = {
+			isa = PBXGroup;
+			children = (
+				60675C8C26F9B6AB006B4BD8 /* hedley */,
+			);
+			path = thirdparty;
+			sourceTree = "<group>";
+		};
+		60675C8C26F9B6AB006B4BD8 /* hedley */ = {
+			isa = PBXGroup;
+			children = (
+				60675C8D26F9B6AB006B4BD8 /* hedley.hpp */,
+				60675C8E26F9B6AB006B4BD8 /* hedley_undef.hpp */,
+			);
+			path = hedley;
+			sourceTree = "<group>";
+		};
+		60675C9126F9B6AB006B4BD8 /* single_include */ = {
+			isa = PBXGroup;
+			children = (
+				60675C9226F9B6AB006B4BD8 /* nlohmann */,
+			);
+			path = single_include;
+			sourceTree = "<group>";
+		};
+		60675C9226F9B6AB006B4BD8 /* nlohmann */ = {
+			isa = PBXGroup;
+			children = (
+				60675C9326F9B6AB006B4BD8 /* json.hpp */,
+			);
+			path = nlohmann;
+			sourceTree = "<group>";
+		};
+		60675C9426F9B6DA006B4BD8 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				60675C9526F9B6DA006B4BD8 /* Server.h */,
+			);
+			name = include;
+			path = RecipesBookServer/include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60406D9F26D65AEA008E93DD /* RecipesBookServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60406DA726D65AEA008E93DD /* Build configuration list for PBXNativeTarget "RecipesBookServer" */;
+			buildPhases = (
+				60406D9C26D65AEA008E93DD /* Sources */,
+				60406D9D26D65AEA008E93DD /* Frameworks */,
+				60406D9E26D65AEA008E93DD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecipesBookServer;
+			productName = RecipesBookServer;
+			productReference = 60406DA026D65AEA008E93DD /* RecipesBookServer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60406D9826D65AEA008E93DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					60406D9F26D65AEA008E93DD = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 60406D9B26D65AEA008E93DD /* Build configuration list for PBXProject "RecipesBookServer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60406D9726D65AEA008E93DD;
+			productRefGroup = 60406DA126D65AEA008E93DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60406D9F26D65AEA008E93DD /* RecipesBookServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60406D9C26D65AEA008E93DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601C535326D9003E006BAFA1 /* Server.cpp in Sources */,
+				60406DA426D65AEA008E93DD /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		60406DA526D65AEA008E93DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		60406DA626D65AEA008E93DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		60406DA826D65AEA008E93DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60406DA926D65AEA008E93DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60406D9B26D65AEA008E93DD /* Build configuration list for PBXProject "RecipesBookServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60406DA526D65AEA008E93DD /* Debug */,
+				60406DA626D65AEA008E93DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60406DA726D65AEA008E93DD /* Build configuration list for PBXNativeTarget "RecipesBookServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60406DA826D65AEA008E93DD /* Debug */,
+				60406DA926D65AEA008E93DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60406D9826D65AEA008E93DD /* Project object */;
+}
